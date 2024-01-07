@@ -4,3 +4,141 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+nav{
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 90px;
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.border:hover{
+    outline: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.nav-delivery {
+    padding: .5rem;
+    margin: .5rem;
+}
+.nav-delivery p{
+    font-size: .8rem;
+    margin-left: 20px;
+    color: #ccc;
+}
+.address-update{
+    display: flex;
+}
+.address-update h3{
+    margin-left: 7px;
+}
+.search-input{
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    color: #0F1111;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-input select{
+    height: 100%;
+    width: 45px;
+    background-color: #f3f3f3;
+    color: grey;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.search-input select:hover{
+    background-color: rgba(128, 128, 128, 0.4);
+    color: black;
+}
+.search-input input{
+    height: 100%;
+    width: 100%;
+    margin: 0 .5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-input .search-icon{
+    background-color: orange;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    width: 45px;
+    cursor: pointer;
+}
+.search-input:hover .search-icon{
+    background-color: rgb(235, 153, 1);
+}
+.country-info{
+    /* width: 5%; */
+    height: 60%;
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 .5rem;
+}
+.country-info img, .country-info select{
+    height: 50%;
+}
+.country-info select{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.signin-info{
+    margin: .5rem;
+}
+.signin-info p{
+    font-size: .8rem;
+    margin-left: 1px;
+    padding: .2rem;
+}
+.signin-info select{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+.order-info{
+    padding: .2rem;
+}
+.cart-info{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: .5rem;
+}
+.cart-info i{
+    font-size: 1.5rem;
+    margin: .2rem;
+}
+
